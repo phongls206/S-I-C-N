@@ -1,0 +1,61 @@
+h1 {
+  opacity: 80%;
+  color: royalblue;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 40px;
+  text-emphasis: double-circle red;
+  line-height: 1.5;
+  text-decoration: underline wavy red;
+  text-decoration-thickness: 5px;
+
+  /* x-offset	Độ lệch ngang (trái/phải)
+y-offset	Độ lệch dọc (trên/dưới)
+blur	Độ mờ của bóng
+color	Màu của bóng đổ */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  opacity: 0.8; /*Độ mờ của chữ  */
+  color: rgb(233, 21, 21);
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+  text-emphasis: double-circle red;
+  line-height: 1.5;
+  text-decoration: underline wavy red;
+  text-decoration-thickness: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  margin: 20px; /* Khoảng cách từ lề */
+  padding: 10px; /* Khoảng cách bên trong */
+  background-color: rgba(255, 255, 255, 0.8); /* Màu nền với độ trong suốt */
+}
+
+h4 {
+  /* display: none; */ /* an bien mat ko chiem khong gian */
+  /* opacity: 0; */ /* an van chiem khong gian nhung van tuong tac duoc */
+  visibility: hidden; /*an phan tu van chiem khong gian nhung k tuong tac dc   */
+  background-color: blueviolet;
+}
+
+span {
+  visibility: visible; /*co thua ke luon tu h2 nen moi hien thi rieng span dc */
+  /* inherited: ke thua */
+}
+/* an hien khi click check box nghien cuu ki ben js 2 lenh duoi */
+img {
+  transition: 1.5s;
+}
+input:checked ~ img {
+  /* display: none; */
+  opacity: 0;
+  visibility: hidden;
+}
